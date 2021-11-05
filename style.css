@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    padding: 38px;
+    /* padding-left: 444px; */
+}
+
+header h3 {
+    font-size: 25px;
+    position: absolute;
+    left: 231px;
+    margin-top: 36.1px;
+}
+
+.links {
+    /* text-align: center; */
+    margin-top: 38px;
+    margin-left: 444px;
+}
+
+.links a {
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    color: #111111;
+    line-height: 30px;
+    margin: 0 30px;
+    text-decoration: none;
+}
+
+#painel {
+    position: absolute;
+    background: #FBDFDB;
+    border-radius: 30px;
+    width: 940px;
+    height: 366px;
+    opacity: 100%;
+    left: 230px;
+    right: 230px;
+    margin-top: 36px;
+    /* margin-top: 36px;
+    margin-left: 230px;
+    padding-top: 366px;
+    padding-left: 940px; */
+}
+
+#painel h2 {
+    color: #111111;
+    font-size: 32px;
+    font-family: Roboto-Bold;
+    margin-left: 60px;
+    margin-top: 117px;
+    max-width: 305px;
+}
+
+#painel p {
+    opacity: 70%;
+    position: absolute;
+    font-family: Roboto-Regular;
+    font-size: 18px;
+    color: #000000;
+    left: 60px;
+    max-width: 300px;
+    max-height: 84px;
+    line-height: 28px;
+}
+
+#painel img {
+    position: absolute;
+    left: 624px;
+    max-width: 216px;
+    max-height: 300px;
+    top: 66px;
+}
