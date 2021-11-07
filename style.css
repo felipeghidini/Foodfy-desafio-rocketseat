@@ -130,3 +130,63 @@ header h3 {
     padding: 15px;
     width: 100%;
 }
+
+.content-1 h3 {
+    font-size: 20px;
+    position: absolute;
+    left: 230px;
+    font-family: 'Roboto-Bold';
+    color: #111111;
+    margin-top: 30px;
+}
+
+.content-1 p {
+    font-size: 18px;
+    position: absolute;
+    left: 230px;
+    color: #444444;
+    margin-top: 61px;
+    line-height: 28px;
+    max-width: 940px;
+    max-height: 280px;
+}
+
+.content-2 h3 {
+    font-size: 20px;
+    position: absolute;
+    left: 230px;
+    font-family: 'Roboto-Bold';
+    color: #111111;
+    margin-top: 400px;
+}
+
+.content-2 p {
+    font-size: 18px;
+    position: absolute;
+    left: 230px;
+    color: #444444;
+    margin-top: 431px;
+    line-height: 28px;
+    max-width: 940px;
+    max-height: 280px;
+}
+
+.content-3 h3 {
+    font-size: 20px;
+    position: absolute;
+    left: 230px;
+    font-family: 'Roboto-Bold';
+    color: #111111;
+    margin-top: 770px;
+}
+
+.content-3 p {
+    font-size: 18px;
+    position: absolute;
+    left: 230px;
+    color: #444444;
+    margin-top: 801px;
+    line-height: 28px;
+    max-width: 940px;
+    max-height: 280px;
+}
