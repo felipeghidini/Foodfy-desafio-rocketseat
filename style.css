@@ -20,6 +20,7 @@ header h3 {
     position: absolute;
     left: 231px;
     margin-top: 36.1px;
+    color: #111111;
 }
 
 .links {
@@ -189,4 +190,15 @@ header h3 {
     line-height: 28px;
     max-width: 940px;
     max-height: 280px;
+}
+
+.cards-2 {
+    max-width: 940px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    position: absolute;
+    left: 230px;
+    margin-top: 10px;
 }
