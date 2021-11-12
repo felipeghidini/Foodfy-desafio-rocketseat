@@ -7,13 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Foodfy</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <a href="home.html"><h3>Foodfy</h3></a>
+        <a href="home.html">
+            <h3>Foodfy</h3>
+        </a>
         <div class="links">
             <a href="sobre.html">Sobre</a>
             <a href="receitas.html">Receitas</a>
@@ -23,7 +24,7 @@
     <section class="cards-2">
         <div class="card">
             <div class="card-image-container">
-                <img src="/assets/burger.png" alt="burger">
+                <img src="/assets/burger.png" class="small_img" alt="burger">
             </div>
             <div class="card-info">
                 <p>Triplo bacon burger</p>
@@ -35,7 +36,7 @@
 
         <div class="card">
             <div class="card-image-container">
-                <img src="/assets/pizza.png" alt="pizza">
+                <img src="/assets/pizza.png" class="small_img" alt="pizza">
             </div>
             <div class="card-info">
                 <p>Pizza 4 estações</p>
@@ -47,7 +48,7 @@
 
         <div class="card">
             <div class="card-image-container">
-                <img src="/assets/espaguete.png" alt="espaguete">
+                <img src="/assets/espaguete.png" class="small_img" alt="espaguete">
             </div>
             <div class="card-info">
                 <p>Espaguete ao alho</p>
@@ -59,7 +60,7 @@
 
         <div class="card">
             <div class="card-image-container">
-                <img src="/assets/lasanha.png" alt="lasanha">
+                <img src="/assets/lasanha.png" class="small_img" alt="lasanha">
             </div>
             <div class="card-info">
                 <p>Lasanha mac n’ cheese</p>
@@ -71,7 +72,7 @@
 
         <div class="card">
             <div class="card-image-container">
-                <img src="/assets/doce.png" alt="doce">
+                <img src="/assets/doce.png" class="small_img" alt="doce">
             </div>
             <div class="card-info">
                 <p>Docinhos pão-do-céu</p>
@@ -83,7 +84,7 @@
 
         <div class="card">
             <div class="card-image-container">
-                <img src="/assets/asinhas.png" alt="asinhas">
+                <img src="/assets/asinhas.png" class="small_img" alt="asinhas">
             </div>
             <div class="card-info">
                 <p>Asinhas de frango ao barbecue</p>
@@ -95,7 +96,7 @@
 
         <div class="card">
             <div class="card-image-container">
-                <img src="/assets/burger.png" alt="burger">
+                <img src="/assets/burger.png" class="small_img" alt="burger">
             </div>
             <div class="card-info">
                 <p>Triplo bacon burger</p>
@@ -107,7 +108,7 @@
 
         <div class="card">
             <div class="card-image-container">
-                <img src="/assets/pizza.png" alt="pizza">
+                <img src="/assets/pizza.png" class="small_img" alt="pizza">
             </div>
             <div class="card-info">
                 <p>Pizza 4 estações</p>
@@ -119,7 +120,7 @@
 
         <div class="card">
             <div class="card-image-container">
-                <img src="/assets/espaguete.png" alt="espaguete">
+                <img src="/assets/espaguete.png" class="small_img" alt="espaguete">
             </div>
             <div class="card-info">
                 <p>Espaguete ao alho</p>
@@ -131,7 +132,7 @@
 
         <div class="card">
             <div class="card-image-container">
-                <img src="/assets/lasanha.png" alt="lasanha">
+                <img src="/assets/lasanha.png" class="small_img" alt="lasanha">
             </div>
             <div class="card-info">
                 <p>Lasanha mac n’ cheese</p>
@@ -143,7 +144,7 @@
 
         <div class="card">
             <div class="card-image-container">
-                <img src="/assets/doce.png" alt="doce">
+                <img src="/assets/doce.png" class="small_img" alt="doce">
             </div>
             <div class="card-info">
                 <p>Docinhos pão-do-céu</p>
@@ -155,7 +156,7 @@
 
         <div class="card">
             <div class="card-image-container">
-                <img src="/assets/asinhas.png" alt="asinhas">
+                <img src="/assets/asinhas.png" class="small_img" alt="asinhas">
             </div>
             <div class="card-info">
                 <p>Asinhas de frango ao barbecue</p>
@@ -166,12 +167,14 @@
         </div>
     </section>
 
-    <div class="modal-overlay">
+    <div class="modal-overlay ">
         <div class="modal">
             <a class="close-modal">
                 <i class="material-icons">close</i>
             </a>
-            <div class="modal-content"></div>
+            <div class="modal-content">
+                <img src="" id="modal_img">
+            </div>
         </div>
     </div>
 
@@ -180,6 +183,8 @@
             <p>Todos os direitos reservados, receita Foodfy</p>
         </div>
     </footer>
+
+    <script src="scripts.js"></script>
 </body>
 
 </html>
